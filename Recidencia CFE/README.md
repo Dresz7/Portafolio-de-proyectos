@@ -1,3 +1,4 @@
+```markdown
 # 🏢 Sistema Web para la Gestión Administrativa en CFE
 
 Proyecto de desarrollo web presentado como residencia profesional durante mi carrera. Consistió en una aplicación web orientada a la gestión administrativa de las secretarías de Trabajo, Finanzas y Previsión Social de la Comisión Federal de Electricidad (CFE), permitiendo un control más eficiente de los procesos internos de estas áreas.
