@@ -1,3 +1,22 @@
-Prototipo de registro de entradas y salidas mediante escaneo de QR
+# 🏢 Sistema Web para la Gestión Administrativa en CFE
 
-Este es un prototipo desarrollado en React Native para registrar entradas y salidas de vehículos mediante códigos QR. Se generaba un QR con el identificador único del vehículo, y al escanearlo, se consultaban los datos en Firebase para validar la información y devolver los detalles correspondientes del vehículo escaneado.
+Proyecto de desarrollo web presentado como residencia profesional durante mi carrera. Consistió en una aplicación web orientada a la gestión administrativa de las secretarías de Trabajo, Finanzas y Previsión Social de la Comisión Federal de Electricidad (CFE), permitiendo un control más eficiente de los procesos internos de estas áreas.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- PHP (o el backend que usaste)  
+- MySQL (o base de datos)  
+- Bootstrap  
+- HTML / CSS / JavaScript
+
+---
+
+## ✨ Funcionalidades
+
+- Gestión de registros administrativos por secretaría  
+- Creación, edición y eliminación de datos  
+- Control de acceso y usuarios  
+- Reportes y visualización por áreas  
+- Interfaz adaptativa (responsive design)
