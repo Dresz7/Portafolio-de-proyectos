@@ -7,17 +7,20 @@ Bienvenido/a a mi portafolio de desarrollo web. Aquí encontrarás una recopilac
 ## 🚀 Proyectos Destacados
 
 ### 🔧 Sistema Web de Gestión Administrativa – CFE
+
 **Tecnologías:** PHP, MySQL, Bootstrap  
 Aplicación desarrollada como parte de mi residencia profesional para la Comisión Federal de Electricidad (CFE), orientada a la gestión de las secretarías de Trabajo, Finanzas y Previsión Social.
 
 ---
 
 ### 📍 Registro de Vehículos con Código QR
+
 **Tecnologías:** React Native, Firebase  
 Prototipo móvil que registra entradas y salidas de vehículos mediante escaneo de códigos QR únicos. Consulta en tiempo real desde Firebase.
 
 ---
 
 ### 🗺️ Localización de Vehículos con GPS (Traccar)
+
 **Tecnologías:** JavaScript, API de Traccar  
 Proyecto de seguimiento de unidades vía GPS mediante integración con la API de Traccar. Permite visualizar posiciones en tiempo real en un mapa web.
