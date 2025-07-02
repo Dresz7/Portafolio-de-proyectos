@@ -1,0 +1,439 @@
+<main class="card m-3">
+    <section class="card-header fs-4 fw-bold text-center">
+        Consulta cliente
+    </section>
+    <section class="card-body text-center">
+        <form
+            method="post"
+            id="frm_consulta_cliente"
+            class="row">
+            <p class="fs-5 fw-bold my-2">
+                Información requerida
+            </p>
+            <section class="offset-md-3 col-md-6 my-2">
+                <label for="curp_consulta" class="form-label">
+                    Introduce la clave curp del cliente
+                </label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="curp_consulta"
+                    name="curp_consulta"
+                    pattern="[0-9A-Z]{18}"
+                    minlength="18"
+                    maxlength="18"
+                    required
+                    autocomplete="off"
+                    aria-describedby="curpConsultaInfo">
+                <section
+                    id="curpConsultaInfo"
+                    class="form-text">
+                    Caracteres en mayúsculas y números aceptados.
+                </section>
+            </section>
+            <section class="offset-md-3 col-md-6 mt-2">
+                <button
+                    type="submit"
+                    class="btn btn-success"
+                    id="fcClienteSubmit">
+                    Consultar
+                </button>
+            </section>
+        </form>
+        <section
+            id="table_container"
+            class="d-none">
+            <table
+                class="table"
+                id="table_clientes"
+                data-toggle="table"
+                data-locale="es-MX"
+                data-loading-template="loadingTemplate">
+            </table>
+        </section>
+    </section>
+</main>
+
+<!-- Modal -->
+<main
+    class="modal fade modal-xl"
+    id="editModal"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="editModalLabel"
+    aria-hidden="true">
+    <section class="modal-dialog modal-fullscreen-lg-down">
+        <section class="modal-content">
+            <section class="modal-header">
+                <h5
+                    class="modal-title"
+                    id="editModalLabel">
+                    Editar datos de cliente
+                </h5>
+                <button
+                    type="button"
+                    id="btn-close-modal"
+                    class="btn-close"
+                    aria-label="Close">
+                </button>
+            </section>
+            <section class="modal-body">
+                <form
+                    method="post"
+                    id="frm_edit_cliente"
+                    class="row text-center">
+                    <input
+                        type="text"
+                        id="idCliente"
+                        name="idCliente"
+                        hidden
+                        objref="id">
+                    <div class="row">
+                        <section class="col-md-6 my-2">
+                            <label for="curp_txt" class="form-label">
+                                Clave Curp
+                            </label>
+                            <input
+                                type="text"
+                                id="curp_txt"
+                                name="curp_txt"
+                                pattern="[0-9A-Z]{18}"
+                                minlength="18"
+                                maxlength="18"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="curp">
+                        </section>
+                        <section class="col-md-6 my-2">
+                            <label for="empresa_txt" class="form-label">
+                                Nombre de empresa
+                            </label>
+                            <input
+                                type="text"
+                                id="empresa_txt"
+                                name="empresa_txt"
+                                pattern="[0-9a-zA-ZñáéíóúÑÁÉÍÓÚ\s]{3,45}"
+                                minlength="3"
+                                maxlength="45"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="nombreEmpresa">
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="col-md-4 my-2">
+                            <label for="nombre_txt" class="form-label">
+                                Nombres
+                            </label>
+                            <input
+                                type="text"
+                                id="nombre_txt"
+                                name="nombre_txt"
+                                pattern="[a-zA-ZñáéíóúÑÁÉÍÓÚ\s]{2,30}"
+                                minlength="2"
+                                maxlength="30"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="nombres">
+                        </section>
+                        <section class="col-md-4 my-2">
+                            <label for="aPaterno_txt" class="form-label">
+                                Primer apellido
+                            </label>
+                            <input
+                                type="text"
+                                id="aPaterno_txt"
+                                name="aPaterno_txt"
+                                pattern="[a-zA-ZñáéíóúÑÁÉÍÓÚ\s]{2,30}"
+                                minlength="2"
+                                maxlength="30"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="apellidoPaterno">
+                        </section>
+                        <section class="col-md-4 my-2">
+                            <label for="aMaterno_txt" class="form-label">
+                                Segundo apellido
+                            </label>
+                            <input
+                                type="text"
+                                id="aMaterno_txt"
+                                name="aMaterno_txt"
+                                pattern="[a-zA-ZñáéíóúÑÁÉÍÓÚ\s]{0,30}"
+                                minlength="0"
+                                maxlength="30"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="apellidoMaterno">
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="offset-md-3 col-md-6 my-2 text-center">
+                            <label for="telefono_txt" class="form-label">
+                                Número de teléfono
+                            </label>
+                            <input
+                                type="text"
+                                id="telefono_txt"
+                                name="telefono_txt"
+                                pattern="[0-9]{10}"
+                                minlength="10"
+                                maxlength="10"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="telefono">
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="col-md-8 my-2">
+                            <label for="calle_txt" class="form-label">
+                                Nombre y número de calle
+                            </label>
+                            <input
+                                type="text"
+                                id="calle_txt"
+                                name="calle_txt"
+                                pattern="[0-9a-zA-ZñáéíóúÑÁÉÍÓÚ\s\/#]{3,60}"
+                                minlength="3"
+                                maxlength="60"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="calle">
+                        </section>
+                        <input
+                            type="text"
+                            id="idDomicilio"
+                            name="idDomicilio"
+                            hidden
+                            objref="idDomicilio">
+                        <section class="col-md-4 my-2">
+                            <label for="codigo_postal_txt" class="form-label">
+                                Código Postal
+                            </label>
+                            <input
+                                type="text"
+                                id="codigo_postal_txt"
+                                name="codigo_postal_txt"
+                                class="form-control"
+                                objref="codigoPostal"
+                                disabled>
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="col-md-6 my-2">
+                            <label for="asentamiento_txt" class="form-label">
+                                Asentamiento
+                            </label>
+                            <input
+                                id="asentamiento_txt"
+                                name="asentamiento_txt"
+                                class="form-control"
+                                objref="asentamiento"
+                                disabled>
+                        </section>
+                        <section class="col-md-6 my-2">
+                            <label for="ciudad_txt" class="form-label">
+                                Ciudad
+                            </label>
+                            <input
+                                id="ciudad_txt"
+                                name="ciudad_txt"
+                                class="form-control"
+                                objref="ciudad"
+                                disabled>
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="col-md-6 my-2">
+                            <label for="municipio_txt" class="form-label">
+                                Municipio
+                            </label>
+                            <input
+                                id="municipio_txt"
+                                name="municipio_txt"
+                                class="form-control"
+                                objref="municipio"
+                                disabled>
+                        </section>
+                        <section class="col-md-6 my-2">
+                            <label for="estado_txt" class="form-label">
+                                Entidad Federativa
+                            </label>
+                            <input
+                                type="text"
+                                id="estado_txt"
+                                name="estado_txt"
+                                class="form-control"
+                                objref="estado"
+                                disabled>
+                        </section>
+                    </div>
+                    <div class="row">
+                        <p class="fs-6 fst-italic text-muted">
+                            Si deseas modificar la dirección comunicate con un
+                            administrador
+                        </p>
+                    </div>
+                    <div class="row">
+                        <section class="col-md-6 my-2">
+                            <label for="no_licencia_txt" class="form-label">
+                                Número de licencia
+                            </label>
+                            <input
+                                type="text"
+                                id="no_licencia_txt"
+                                name="no_licencia_txt"
+                                pattern="[0-9A-Z]{6,15}"
+                                minlength="6"
+                                maxlength="15"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="numeroLicencia">
+                        </section>
+                        <section class="col-md-6 my-2">
+                            <label for="entidad_licencia_select"
+                                class="form-label">
+                                Entidad Federativa de licencia
+                            </label>
+                            <select
+                                id="entidad_licencia_select"
+                                name="entidad_licencia_select"
+                                required
+                                class="form-select"
+                                objref="entidadLicencia">
+                                <option value="" disabled selected>Seleccione</option>
+                                <option value="Aguascalientes">Aguascalientes</option>
+                                <option value="Baja California">Baja California</option>
+                                <option value="Baja California Sur">Baja
+                                    California Sur</option>
+                                <option value="Campeche">Campeche</option>
+                                <option value="Chiapas">Chiapas</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="Ciudad de México">Ciudad de
+                                    México</option>
+                                <option value="Coahuila de Zaragoza">Coahuila de
+                                    Zaragoza</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Durango">Durango</option>
+                                <option value="Guanajuato">Guanajuato</option>
+                                <option value="Guerrero">Guerrero</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                                <option value="Jalisco">Jalisco</option>
+                                <option value="Estado de México">Estado de
+                                    México</option>
+                                <option value="Michoacán de Ocampo">Michoacán de
+                                    Ocampo</option>
+                                <option value="Morelos">Morelos</option>
+                                <option value="Nayarit">Nayarit</option>
+                                <option value="Nuevo León">Nuevo León</option>
+                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Puebla">Puebla</option>
+                                <option value="Querétaro">Querétaro</option>
+                                <option value="Quintana Roo">Quintana Roo</option>
+                                <option value="San Luis Potosí">San Luis Potosí</option>
+                                <option value="Sinaloa">Sinaloa</option>
+                                <option value="Sonora">Sonora</option>
+                                <option value="Tabasco">Tabasco</option>
+                                <option value="Tamaulipas">Tamaulipas</option>
+                                <option value="Tlaxcala">Tlaxcala</option>
+                                <option value="Veracruz de Ignacio de la Llave">Veracruz
+                                    de
+                                    Ignacio de la Llave</option>
+                                <option value="Yucatán">Yucatán</option>
+                                <option value="Zacatecas">Zacatecas</option>
+                            </select>
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="offset-md-3 col-md-6 my-2 text-center">
+                            <label for="telefono_emergencia_txt"
+                                class="form-label">
+                                Teléfono de emergencia
+                            </label>
+                            <input
+                                type="text"
+                                id="telefono_emergencia_txt"
+                                name="telefono_emergencia_txt"
+                                pattern="[0-9]{10}"
+                                minlength="10"
+                                maxlength="10"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="telefonoEmergencia">
+                        </section>
+                    </div>
+                  <!--  <div class="row">
+                        <section class="col-md-6 my-2">
+                            <label for="clave_elector_txt" class="form-label">
+                                Clave de elector
+                            </label>
+                            <input
+                                type="text"
+                                id="clave_elector_txt"
+                                name="clave_elector_txt"
+                                pattern="[0-9A-Z]{18}"
+                                minlength="18"
+                                maxlength="18"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="claveElector">
+                        </section>
+                     <section class="col-md-6 my-2">
+                            <label for="seccion_electoral_txt"
+                                class="form-label">
+                                Sección Electoral
+                            </label>
+                           <input
+                                type="text"
+                                id="seccion_electoral_txt"
+                                name="seccion_electoral_txt"
+                                list="seccionList"
+                                pattern="[0-9]{4}"
+                                minlength="4"
+                                maxlength="4"
+                                required
+                                autocomplete="off"
+                                class="form-control"
+                                objref="seccion">
+                            <datalist id="seccionList">
+                            </datalist>
+                            <input
+                                type="text"
+                                id="distrito_electoral_txt"
+                                name="distrito_electoral_txt"
+                                autocomplete="off"
+                                value="0"
+                                hidden
+                                objref="distrito"/>
+                        </section> 
+                    </div>-->
+                    <div class="row">
+                        <section
+                            class="offset-md-3 col-md-6 my-2">
+                            <button
+                                type="submit"
+                                id="fcmClienteSubmit"
+                                class="btn btn-primary"
+                                disabled>
+                                Actualizar
+                            </button>
+                        </section>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </section>
+</main>
+
+<script defer src="arrendamientos/js/consulta_cliente.js"></script>

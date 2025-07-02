@@ -1,0 +1,598 @@
+[01-May-2023 11:32:25 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[04-May-2023 15:05:38 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[14-May-2023 17:10:44 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[18-May-2023 16:21:18 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[20-May-2023 08:39:47 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[25-May-2023 14:00:25 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[25-May-2023 14:00:29 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[01-Jun-2023 18:38:37 UTC] PHP Parse error:  syntax error, unexpected ''Antonio2023\';' (T_ENCAPSED_AND_WHITESPACE) in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php(7) : eval()'d code on line 1
+[09-Jun-2023 12:09:38 America/Tijuana] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to utf8_dec() must be of the type string, null given, called in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php on line 127 and defined in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php:16
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(127): utf8_dec(NULL)
+#1 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 16
+[21-Jun-2023 09:02:30 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[05-Jul-2023 09:43:13 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[18-Jul-2023 09:39:32 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[02-Aug-2023 13:59:07 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[26-Aug-2023 17:01:28 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[14-Sep-2023 18:39:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[14-Sep-2023 18:39:15 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[14-Sep-2023 18:39:15 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[14-Sep-2023 11:39:15 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 85
+[14-Sep-2023 11:39:15 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 87
+[14-Sep-2023 11:39:15 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 104
+[14-Sep-2023 11:39:15 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 106
+[14-Sep-2023 11:39:15 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/pago_arrendamiento.php on line 14
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[14-Sep-2023 20:10:42 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[18-Sep-2023 09:36:27 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[19-Sep-2023 01:06:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[19-Sep-2023 01:06:23 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[19-Sep-2023 01:06:23 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[18-Sep-2023 18:06:23 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 85
+[18-Sep-2023 18:06:23 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 87
+[18-Sep-2023 18:06:23 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 104
+[18-Sep-2023 18:06:23 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 106
+[18-Sep-2023 18:06:23 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/finalizar_arrendamiento.php on line 13
+[22-Sep-2023 17:41:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[22-Sep-2023 17:41:14 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[22-Sep-2023 17:41:14 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[22-Sep-2023 10:41:14 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 85
+[22-Sep-2023 10:41:14 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 87
+[22-Sep-2023 10:41:14 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 104
+[22-Sep-2023 10:41:14 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 106
+[22-Sep-2023 10:41:14 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_gasto_general.php on line 10
+[22-Sep-2023 17:41:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[22-Sep-2023 17:41:17 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[22-Sep-2023 17:41:17 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[22-Sep-2023 10:41:17 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 85
+[22-Sep-2023 10:41:17 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 87
+[22-Sep-2023 10:41:17 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 104
+[22-Sep-2023 10:41:17 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 106
+[22-Sep-2023 10:41:17 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_gasto_general.php on line 10
+[28-Sep-2023 15:42:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[28-Sep-2023 15:42:51 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[28-Sep-2023 15:42:51 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[28-Sep-2023 08:42:51 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 85
+[28-Sep-2023 08:42:51 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 87
+[28-Sep-2023 08:42:51 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 104
+[28-Sep-2023 08:42:51 America/Tijuana] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/functions.php on line 106
+[28-Sep-2023 08:42:51 America/Tijuana] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/pago_arrendamiento.php on line 14
+[29-Sep-2023 09:41:40 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[29-Sep-2023 14:04:47 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[29-Sep-2023 14:30:16 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[03-Oct-2023 01:06:54 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[19-Oct-2023 14:37:07 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[28-Oct-2023 01:06:37 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[29-Oct-2023 01:07:01 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[30-Oct-2023 09:58:09 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[30-Oct-2023 18:22:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[30-Oct-2023 18:24:54 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 2
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 3
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/connection/connection.php on line 5
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 10
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 11
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 13
+[30-Oct-2023 18:25:54 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/login.php on line 30
+[05-Nov-2023 16:36:18 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[08-Nov-2023 15:20:16 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[17-Nov-2023 09:43:47 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[01-Dec-2023 13:45:00 America/Tijuana] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[14-Dec-2023 17:38:55 America/Mazatlan] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[18-Dec-2023 19:10:56 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1013) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:12:02 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:12:18 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:13:08 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:13:58 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:14:22 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:14:32 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:14:58 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:15:37 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:17:23 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:17:52 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:18:22 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:18:56 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:19:33 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:19:52 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:20:00 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:20:21 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:20:32 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:20:38 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:26:52 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[18-Dec-2023 19:35:07 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 09:14:35 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 09:16:00 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 09:18:30 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 09:34:46 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 09:38:08 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 10:28:03 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 10:31:12 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 12:23:26 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[20-Dec-2023 12:25:34 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[21-Dec-2023 18:30:43 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[22-Dec-2023 10:21:01 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[22-Dec-2023 10:24:18 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[23-Dec-2023 10:26:42 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[23-Dec-2023 13:47:49 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[23-Dec-2023 13:48:19 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[23-Dec-2023 14:10:35 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 10:28:26 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:35:06 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:42:10 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:42:34 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:43:26 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:43:39 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:43:58 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:44:11 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:44:23 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[26-Dec-2023 12:45:27 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[27-Dec-2023 10:02:49 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[27-Dec-2023 10:48:58 America/Mazatlan] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[27-Dec-2023 10:53:12 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[29-Dec-2023 11:32:18 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[29-Dec-2023 17:30:46 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[30-Dec-2023 13:17:47 America/Mazatlan] PHP Notice:  Trying to access array offset on value of type null in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/insert_cliente.php on line 18
+[30-Dec-2023 13:19:52 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[30-Dec-2023 13:26:21 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[30-Dec-2023 18:09:16 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1058): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/recibo_pago.php(128): FPDF->Output('D', 'Recibo_AR-.pdf')
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[03-Jan-2024 12:07:52 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[04-Jan-2024 10:48:37 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[05-Jan-2024 04:55:50 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[06-Jan-2024 00:12:39 UTC] PHP Warning:  include(api.php): failed to open stream: No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:12:39 UTC] PHP Warning:  include(): Failed opening 'api.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:12:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl() in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 4
+[06-Jan-2024 00:15:37 UTC] PHP Warning:  include(api.php): failed to open stream: No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:15:37 UTC] PHP Warning:  include(): Failed opening 'api.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl() in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 4
+[06-Jan-2024 00:16:37 UTC] PHP Warning:  include(api.php): failed to open stream: No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:16:37 UTC] PHP Warning:  include(): Failed opening 'api.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl() in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 4
+[06-Jan-2024 00:24:54 UTC] PHP Warning:  include(api.php): failed to open stream: No such file or directory in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:24:54 UTC] PHP Warning:  include(): Failed opening 'api.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 2
+[06-Jan-2024 00:24:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl() in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/get_latest_data.php on line 4
+[06-Jan-2024 13:02:16 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[08-Jan-2024 04:13:12 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[09-Jan-2024 12:56:21 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[10-Jan-2024 16:42:00 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[10-Jan-2024 16:52:08 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[10-Jan-2024 18:10:29 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1058): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1017): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(215): FPDF->Output('D', '_contrato.pdf')
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267
+[10-Jan-2024 18:10:32 America/Mazatlan] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:1022) in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1047): FPDF->Error('Some data has a...')
+#1 /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php(1004): FPDF->_checkoutput()
+#2 /home/u0ceix922hb3/public_html/arrendamientos/php/scripts/contrato.php(216): FPDF->Output()
+#3 {main}
+  thrown in /home/u0ceix922hb3/public_html/arrendamientos/libs/fpdf/fpdf.php on line 267

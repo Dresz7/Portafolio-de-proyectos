@@ -1,0 +1,30 @@
+
+#search {
+        width:35%;
+    }
+
+@media (max-width: 820px) {
+    #search {
+        width:100%;
+    }
+}
+
+.pmenu {
+   margin-top: -35px; 
+}
+
+.trans{
+  display: flex;
+  justify-content: center;
+}
+
+.tablescrolly {
+ height: 488px;
+ overflow-y: auto;
+
+}
+
+.tablescrollx {
+ width: 100%;
+ overflow-x: auto;
+}

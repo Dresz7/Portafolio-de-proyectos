@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Redireccionar la raíz al directorio /arrendamientos/
+RewriteRule ^$ /arrendamientos/ [L]
+
+# Configurar páginas de error
+ErrorDocument 403 /arrendamientos/views/errors/403.html
+ErrorDocument 404 /arrendamientos/views/errors/404.html
