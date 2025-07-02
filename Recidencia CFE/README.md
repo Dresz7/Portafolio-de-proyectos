@@ -6,8 +6,8 @@ Proyecto de desarrollo web presentado como residencia profesional durante mi car
 
 ## 🛠️ Tecnologías utilizadas
 
-- PHP (o el backend que usaste)  
-- MySQL (o base de datos)  
+- PHP
+- MySQL
 - Bootstrap  
 - HTML / CSS / JavaScript
 
