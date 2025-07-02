@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { LogBox } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import Toast from "react-native-toast-message";
+import { LoginDivider } from "./src/navigation/LoginDivider";
+import { firebaseApp, auth } from "./src/utils";
+
+LogBox.ignoreAllLogs();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <NavigationContainer>
+        <LoginDivider />
+      </NavigationContainer>
+
+      <Toast />
+    </GestureHandlerRootView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
