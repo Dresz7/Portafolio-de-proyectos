@@ -24,3 +24,4 @@ Prototipo móvil que registra entradas y salidas de vehículos mediante escaneo 
 
 **Tecnologías:** JavaScript, API de Traccar  
 Proyecto de seguimiento de unidades vía GPS mediante integración con la API de Traccar. Permite visualizar posiciones en tiempo real en un mapa web.
+(borrado por petición de la empresa)
